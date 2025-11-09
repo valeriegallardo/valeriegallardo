@@ -24,7 +24,6 @@
       -moz-osx-font-smoothing:grayscale;
     }
 
-    /* Page container with 3cm margins */
     .page {
       box-sizing: border-box;
       padding-left: 3cm;
@@ -47,7 +46,6 @@
       letter-spacing: 1px;
     }
 
-    /* Section heading style */
     h2 {
       font-size: 20px;
       margin: 1.2rem 0 0.6rem 0;
@@ -56,7 +54,6 @@
       border-bottom: 2px solid var(--navy);
     }
 
-    /* Card look for content blocks */
     .card {
       background: #ffffff;
       border-radius: 10px;
@@ -70,7 +67,13 @@
     ul { margin: 0.4rem 0 0 1.2rem; padding: 0; }
     li { margin-bottom: 0.6rem; font-size: 16px; line-height: 1.5; }
 
-    /* Footer */
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover { text-decoration: underline; }
+
     footer {
       margin-top: auto;
       padding-top: 12px;
@@ -80,7 +83,6 @@
       color: var(--navy);
     }
 
-    /* small screens adjust margins */
     @media (max-width: 900px){
       .page { padding-left: 1.5rem; padding-right: 1.5rem; padding-top: 1.5rem; padding-bottom: 1.5rem; }
       h1 { font-size: 28px; }
@@ -114,32 +116,27 @@
       <section class="card">
         <h2>Professional Interests</h2>
         <p>My main areas of professional interest combine strategy, creativity, and analysis — all focused on generating value within organizations.</p>
-
-        <p><strong>Marketing:</strong> understanding consumer behavior, market dynamics, and how to communicate meaningful value to audiences.</p>
-
-        <p><strong>Market Analysis:</strong> exploring trends and data to support evidence-based decision-making.</p>
-
-        <p><strong>Data Analysis:</strong> applying quantitative insight to improve innovation, performance, and strategic growth.</p>
-
-        <p><strong>Creativity:</strong> finding new and practical solutions that enhance organizational and communication processes.</p>
-
-        <p><strong>Planning & Processes:</strong> designing and optimizing systems that promote efficiency and strategic alignment.</p>
-
-        <p><strong>Business Development:</strong> contributing to the growth and sustainability of companies through structured and innovative approaches.</p>
-
-        <p><strong>Business Management:</strong> integrating leadership, administration, and strategy to create strong, adaptable, and people-centered organizations.</p>
+        <ul>
+          <li><strong>Marketing:</strong> understanding consumer behavior, market dynamics, and how to communicate meaningful value to audiences.</li>
+          <li><strong>Market Analysis:</strong> exploring trends and data to support evidence-based decision-making.</li>
+          <li><strong>Data Analysis:</strong> applying quantitative insight to improve innovation, performance, and strategic growth.</li>
+          <li><strong>Creativity:</strong> finding new and practical solutions that enhance organizational and communication processes.</li>
+          <li><strong>Planning & Processes:</strong> designing and optimizing systems that promote efficiency and strategic alignment.</li>
+          <li><strong>Business Development:</strong> contributing to the growth and sustainability of companies through structured and innovative approaches.</li>
+          <li><strong>Business Management:</strong> integrating leadership, administration, and strategy to create strong, adaptable, and people-centered organizations.</li>
+        </ul>
       </section>
 
       <section class="card">
         <h2>Professional Objective</h2>
-        <p>My goal is to develop as a business professional who applies analytical, ethical, and creative thinking to real-world challenges. I aim to contribute to organizations that value innovation, teamwork, and sustainable business growth while continuously improving my own professional skills and perspectives.</p>
+        <p>My goal is to develop as a business professional who applies analytical, ethical, and creative thinking to real-world challenges. I aim to contribute to organizations that value innovation, teamwork and sustainable business growth while continuously improving my own professional skills and perspectives.</p>
       </section>
 
       <section class="card">
         <h2>Contact</h2>
         <ul>
-          <li>Email: valerie.gallardo@ucsp.edu.pe</li>
-          <li>LinkedIn: Valerie Gallardo</li>
+          <li>Email: <a href="mailto:valerie.gallardo@ucsp.edu.pe">valerie.gallardo@ucsp.edu.pe</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/valerie-carolina-gallardo-aguilar-7b7872274/" target="_blank">Valerie Gallardo</a></li>
           <li>Current Location: Peru</li>
         </ul>
       </section>
